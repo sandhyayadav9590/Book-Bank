@@ -101,4 +101,3 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 --- 
 
-This README provides a clear and straightforward overview of the project. You can expand it by adding more sections, such as "Known Issues," "Future Improvements," or "FAQs" as your project evolves.
