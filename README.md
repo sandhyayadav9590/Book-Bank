@@ -80,9 +80,8 @@ Each endpoint uses JSON format for request and response bodies.
 ```json
 {
   "title": "Effective Java",
-  "author": "Joshua Bloch",
   "price": 45.00,
-  "isbn": "978-0134685991"
+  
 }
 ```
 
