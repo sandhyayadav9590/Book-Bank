@@ -33,7 +33,7 @@ Book Bank is a Spring Boot application designed to help manage book records in a
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/BookBank.git
+   git clone https://github.com/sandhyayadav9590/BookBank.git
    cd BookBank
    ```
 
@@ -48,9 +48,9 @@ Book Bank is a Spring Boot application designed to help manage book records in a
    - Update the database configuration in `src/main/resources/application.properties`:
 
      ```properties
-     spring.datasource.url=jdbc:mysql://localhost:3306/bookbank
-     spring.datasource.username=your_username
-     spring.datasource.password=your_password
+     spring.datasource.url=jdbc:mysql://localhost:3306/********
+     spring.datasource.username=***********
+     spring.datasource.password=************
      spring.jpa.hibernate.ddl-auto=update
      ```
 
@@ -67,11 +67,11 @@ Book Bank is a Spring Boot application designed to help manage book records in a
 
 | Method | Endpoint       | Description               |
 |--------|----------------|---------------------------|
-| GET    | `/api/books`   | Retrieve all book records |
-| GET    | `/api/books/{id}` | Retrieve a book by ID  |
-| POST   | `/api/books`   | Add a new book record     |
-| PUT    | `/api/books/{id}` | Update a book record  |
-| DELETE | `/api/books/{id}` | Delete a book record  |
+| GET    | `/getallbooks`   | Retrieve all book records |
+| GET    | `/getbookbyid/{id}` | Retrieve a book by ID  |
+| POST   | `/addbook`   | Add a new book record     |
+| PUT    | `/updatebook/{id}` | Update a book record  |
+| DELETE | `/deletebook/{id}` | Delete a book record  |
 
 Each endpoint uses JSON format for request and response bodies.
 
